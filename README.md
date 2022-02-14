@@ -16,6 +16,4 @@ npm install && npm index.js
 ```
 
 ### Approach and Validation
-```
-// Please read Approach.MD 
-```
+Approach.md [a relative link] (https://github.com/JinZSu/JWT-Apollo-Server/blob/main/Approach.md)
