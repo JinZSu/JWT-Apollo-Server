@@ -19,7 +19,10 @@ app.use( //Use of JWT Tokens
 
 
 //getUsers():
-//
+// you would get users by id
+// each id would return the permissions of the user
+// roles: ["Brower_Andy"],
+// permissions: ["read:any_user", "read:own_user"]
 
 const server = new ApolloServer({
     typeDefs,

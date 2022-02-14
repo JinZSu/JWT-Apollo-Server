@@ -1,9 +1,9 @@
 # JWT-Apollo-Server
-Creation of JWT on Apollo-Server
+Creation of JWT on Apollo-Server in reponse for Parsley Health's Homework
 
 ### Project setup
 ```
-// Install dependencies for server and client
+// Install dependencies for server
 npm install && npm index.js
 ```
 

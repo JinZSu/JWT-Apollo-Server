@@ -92,7 +92,7 @@ Please create a GraphQL endpoint that accepts an empty body request (only header
 responds appropriately given the problem statement.
 ```
 I wasn't too sure where graphql was living, so I ran a quick wireshark and found that these querys exist within the body of the request. 
-![alt text](https://github.com/JinZSu/JWT-Apollo-Server/Fotos/Wireshark.png?raw=true)
+![alt text](https://github.com/JinZSu/JWT-Apollo-Server/blob/main/Fotos/Wireshark.png?raw=true)
 
 To validate, I downloaded Postman to generate the JWT and run them with an empty body. What I got in return was that 
 ```
@@ -101,9 +101,9 @@ To validate, I downloaded Postman to generate the JWT and run them with an empty
 To keep things simple, I reverse engineered how that message was being sent. What I discovered was that Apollo-server 
 contains an ApolloError which allows me to override any error message. I customized a few and on Postman sent two packets. 
 The first being a JWT with SSO
-![alt text](https://github.com/JinZSu/JWT-Apollo-Server/Fotos/postmansso.png?raw=true)
+![alt text](https://github.com/JinZSu/JWT-Apollo-Server/blob/main/Fotos/Wireshark.png?raw=true)
 
 The second being a JWT with login
-![alt text](https://github.com/JinZSu/JWT-Apollo-Server/Fotos/postmanlogin.png?raw=true)
+![alt text](https://github.com/JinZSu/JWT-Apollo-Server/blob/main/Fotos/Wireshark.png?raw=true)
 
 Althou
